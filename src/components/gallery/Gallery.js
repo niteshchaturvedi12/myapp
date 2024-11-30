@@ -1,7 +1,7 @@
 import React from 'react'
 // import Profile from '../profile/profile.js';
 
-function Profile() {
+export function Profile() {
   return (
     <div className='profile'>
         <img 
