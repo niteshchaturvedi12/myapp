@@ -1,15 +1,5 @@
 import React from 'react'
-// import Profile from '../profile/profile.js';
-
-export function Profile() {
-  return (
-    <div className='profile'>
-        <img 
-        src='https://i.imgur.com/MK3eW3Am.jpg' 
-        alt='Katherine Johnson'/>
-    </div>
-  )
-}
+import Profile from '../profile/profile.js';
 
 export default function Gallery() {
   return (
