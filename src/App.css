@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: center
 }
 
 .App-logo {
@@ -49,4 +49,19 @@
 
 .section {
   border: 100px;
+}
+.mc {
+  color: rgb(237, 247, 249);
+  background-color: rgb(14, 81, 24);
+  display: flex;
+  justify-content: center;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+img {
+  border-radius: 100%;
+  padding: 5px;
+  /* width: 105px; */
 }

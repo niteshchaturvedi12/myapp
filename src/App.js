@@ -1,10 +1,49 @@
 import './App.css';
-import MyComponent from './components/MyComponent'
+// import MyComponent from './components/first/MyComponent'
+// import Gallery from './components/gallery/Gallery';
+
+function MyComponent() {
+  return (
+    <div className='container mc'>
+      <article>
+        <h1>My First Componenet</h1>
+        <ol>
+          <li>Component: UI Building Blocks</li>
+          <li>Defining a Component</li>
+          <li>Using a Component</li>
+        </ol>
+      </article>
+    </div>
+  )
+}
+
+function Profile() {
+  return (
+    <div className='profile'>
+        <img 
+        src='https://i.imgur.com/MK3eW3Am.jpg' 
+        alt='Katherine Johnson'/>
+    </div>
+  )
+}
+function Gallery() {
+  return (
+    <>
+      <h2>Amazing Scientists</h2>
+      <section className='gallery'>
+          <Profile />
+          <Profile />
+          <Profile />
+      </section>
+    </>
+  )
+}
 
 function App() {
   return (
     <div className="App">
       <MyComponent />
+      <Gallery />
     </div>
   );
 }
