@@ -5,7 +5,7 @@ export default function MyComponent() {
   return (
     <div className='container mc'>
       <article>
-        <h1>My First Componenet</h1>
+        <h1>My First Component</h1>
         <ol>
           <li>Component: UI Building Blocks</li>
           <li>Defining a Component</li>

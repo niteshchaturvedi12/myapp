@@ -50,13 +50,3 @@
 .section {
   border: 100px;
 }
-.mc {
-  color: rgb(245, 237, 10);
-  background-color: rgb(14, 81, 24);
-  display: flex;
-  justify-content: center;
-}
-.gallery {
-  display: flex;
-  justify-content: center;
-}
