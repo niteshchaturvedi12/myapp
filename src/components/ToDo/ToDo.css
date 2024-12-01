@@ -1,0 +1,15 @@
+.todo {
+    background-color: green;
+    color: yellow;
+}
+
+.todo > img {
+    border-radius: 100%;
+    width: 10%;
+    height: auto;
+}
+
+.todo > img:hover {
+    transform: scaleX(-1);
+    opacity: .5;
+}

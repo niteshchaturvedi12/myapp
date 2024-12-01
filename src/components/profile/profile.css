@@ -1,4 +1,4 @@
-img {
+.gallery-image {
     border-radius: 100%;
     padding: 5px;
     border: 1px solid rgb(191, 43, 43);
@@ -11,6 +11,6 @@ img {
     filter: grayscale(50%);
   }
 
-img:hover {
+  .gallery-image:hover {
     transform: scaleX(-1);
 }

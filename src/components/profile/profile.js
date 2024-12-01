@@ -4,7 +4,7 @@ export default function Profile(props) {
 
   return (
     <div className='profile'>
-        <img
+        <img className='gallery-image'
         src={props.imageUrl} 
         alt='Katherine Johnson'/>
     </div>
