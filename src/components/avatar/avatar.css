@@ -1,0 +1,13 @@
+.avatar {
+    background-color: black;
+    color: pink;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: left;
+}
+
+.avatar > img {
+    border-radius: 100%;
+    width: 10%;
+    height: auto;
+}
