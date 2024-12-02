@@ -1,0 +1,6 @@
+.image-profile {
+    background-color: yellow;
+    color: green;
+    display: flex;
+    justify-content: space-around;
+}
